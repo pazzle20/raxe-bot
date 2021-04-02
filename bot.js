@@ -76,3 +76,4 @@ bot.on('message', async message => {
 	}
 })
 
+discordClient.login(token);
