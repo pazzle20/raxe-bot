@@ -24,7 +24,7 @@ bot.on('ready', () => {
     console.log("Бот был успешно запущен!");
 });
 
-const token = process.env.DJS_TOKEN
+const token = "ODI3NTU4MTU2ODg3NTIzMzQ5.YGcxlw.SH_u-gpKXeAT4a0UYg1_Mol99og"
 const logChannelID = "827551176589443102"
 
 bot.on('message', async message => {
@@ -76,4 +76,4 @@ bot.on('message', async message => {
 	}
 })
 
-bot.login(token)
+bot.login(process.env.BOT_TOKEN)
