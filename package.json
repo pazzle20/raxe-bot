@@ -1,0 +1,24 @@
+{
+
+    "name": "Test",
+  
+    "description": "Example",
+  
+    "version": "0.0.0",
+  
+    "main": "bot.js",
+  
+    "scripts": {
+  
+      "start": "node bot.js"
+  
+    },
+  
+    "dependencies": {
+  
+      "discord.js": "12.5.3",
+      "mysql": "2.18.1"
+  
+    }
+  
+  }
